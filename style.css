@@ -172,3 +172,16 @@ body {
         justify-content: center;
     }
 }
+
+.carga_horaria{
+    display: block;
+    flex-direction: row;
+}
+.carga_horaria img{
+    width: 20px;
+    height: 20px;
+}
+
+h1{
+    margin-bottom: 15px;
+}
