@@ -219,3 +219,9 @@ body {
 h1{ margin-top: 15px;
     margin-bottom: 15px;
 }
+
+ a:hover {
+    color: #f6fa06;
+    text-transform: uppercase;
+    font-size: larger;
+}
