@@ -21,7 +21,7 @@ justify-content: space-between;
     padding: 20px;
 }
 
-hwader nav .container img h1{
+header nav .container img h1{
     
     text-align: center;
     margin-bottom: 100px;
@@ -162,6 +162,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
+    
 }
 
 .cursos img{
@@ -173,7 +174,7 @@ body {
     border: 1px solid black;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 10px 5px 5px black;
     border-radius: 5px;
     max-width: 350px;
 }
@@ -221,7 +222,31 @@ h1{ margin-top: 15px;
 }
 
  a:hover {
-    color: #f6fa06;
+    color: #fa0606;
     text-transform: uppercase;
     font-size: larger;
+    background-color: yellow;
+}
+
+.servico img{
+    width: 300px;
+    height: 300px;
+}
+
+.container_inicial{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.container_sobre h2{
+
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+
 }
