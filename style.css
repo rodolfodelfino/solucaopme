@@ -277,6 +277,7 @@ body {
     margin: 0 auto;
     padding: 20px;
     }
+
 }
 
 @media (max-width: 900px) {
@@ -288,6 +289,8 @@ body {
         justify-content: center;
     
     }
+
+    .menu ul
     .container ul{
         display: none;
     } 
@@ -356,4 +359,10 @@ h1{ margin-top: 15px;
     font-size: 25px;
 
 }
+
+
+
+
+
+
 
