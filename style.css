@@ -21,6 +21,8 @@ justify-content: space-between;
     padding: 10px;
 }
 
+
+
 header nav .container img h1{
     
     text-align: center;
@@ -38,7 +40,85 @@ header nav .container img h1{
 
 }
 
-.container img{
+/* Estilos para o menu */
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  
+  .menu img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    font-size: large;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .menu a:hover {
+    color: #ff6600; /* Cor de destaque ao passar o mouse */
+  }
+  
+  /* Estilos para dispositivos móveis */
+  @media screen and (max-width: 768px) {
+    .menu {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+    }
+  
+    .menu ul {
+      margin-top: 10px;
+      flex-direction: column;
+    }
+  
+    .menu li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+    .menu{
+        background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    }
+  }
+  
+
+
+
+.menu img{
         width: 120px;
         height: 120px;
         margin-left: 0px;
@@ -75,7 +155,7 @@ nav a {
 
 /* Banner */
 #banner {
-    background-color: #1e58d4;
+    background-color: #000000;
     background-size: cover;
     color: #fff;
     text-align: center;
@@ -123,7 +203,7 @@ nav a {
 
 /* Seção de Contato */
 #contato {
-    background-color: #1e58d4;
+    background-color: #000000;
     color: #fff;
     text-align: center;
     padding: 40px 0;
@@ -139,7 +219,7 @@ nav a {
 
 /* Rodapé */
 footer {
-    background-color: #1e58d4;
+    background-color: #000000;
     color: #fff;
     text-align: center;
     padding: 10px 0;
